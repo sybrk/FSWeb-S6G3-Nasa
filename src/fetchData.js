@@ -1,4 +1,5 @@
-let apiKey = "DEMO_KEY";
+import apiKey from "./apiKey"
+
 
 const FetchRandom = async function(count=1) {
     var requestOptions = {
