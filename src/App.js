@@ -8,6 +8,7 @@ import InputContainer from "./components/userinput/InputContainer";
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 import Accordion from 'react-bootstrap/Accordion';
+import DarkMode from './components/DarkMode';
 
 
 
@@ -26,7 +27,13 @@ function App() {
   }, []);
   return (
     <div className="App">
-      <h1>NASA Astronomy Picture of the Day</h1>
+
+      
+      <div className="d-flex flex-row align-items-center gap-5 justify-content-center" >
+          <DarkMode />
+          <h1>NASA Astronomy Picture of the Day</h1>
+      </div>
+      
       <MyNavbar setInputToShow = {setInputToShow} />
       <InputContainer InputToShow = {InputToShow} setApiData = {setApiData} />
       
