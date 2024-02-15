@@ -1,4 +1,4 @@
-let apiKey = "";
+let apiKey = "DEMO_KEY";
 
 const FetchRandom = async function(count=1) {
     var requestOptions = {
