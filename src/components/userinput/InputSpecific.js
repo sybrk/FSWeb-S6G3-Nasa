@@ -10,7 +10,7 @@ const InputSpecific = (props) => {
     const [inputValue, setInputValue] = useState("")
     return (
         <>
-            <InputGroup className="mx-auto mt-2 w-50">
+            <InputGroup className="mx-auto mt-2 w-25">
                 <InputGroup.Text >Specific</InputGroup.Text>
                 <Form.Control
                 type="date"

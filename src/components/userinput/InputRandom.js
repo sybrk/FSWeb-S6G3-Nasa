@@ -12,7 +12,7 @@ const InputRandom = (props) => {
     const [inputValue, setInputValue] = useState("")
     return (
         <>
-            <InputGroup className="mx-auto mt-2 w-50">
+            <InputGroup className="mx-auto mt-2 w-25">
                 <InputGroup.Text >#</InputGroup.Text>
                 <Form.Control
                 type="number"
