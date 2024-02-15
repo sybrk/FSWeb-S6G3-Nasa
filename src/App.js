@@ -29,7 +29,7 @@ function App() {
     <div className="App">
 
       
-      <div className="d-flex flex-row align-items-center gap-5 justify-content-center" >
+      <div className="d-flex flex-column align-items-center gap-1 justify-content-center" >
           <DarkMode />
           <h1>NASA Astronomy Picture of the Day</h1>
       </div>
