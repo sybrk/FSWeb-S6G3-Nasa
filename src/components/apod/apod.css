@@ -1,0 +1,19 @@
+.apod-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    
+}
+
+.apod-images {
+    height: 400px;
+    width: 500px;
+}
+
+.apod-container p {
+    width: 500px;
+    text-align: left;
+    word-wrap: break-word;
+}

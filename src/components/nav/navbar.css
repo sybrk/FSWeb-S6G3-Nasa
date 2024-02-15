@@ -1,0 +1,16 @@
+.nav-items {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.nav-items button {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+}
+
+.navbar-container {
+    margin: 10px 0px
+}

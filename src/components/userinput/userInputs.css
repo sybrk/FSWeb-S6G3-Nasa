@@ -1,0 +1,13 @@
+.input-container {
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: black;
+    color: aliceblue;
+    border-radius: 5px;
+}
